@@ -1,22 +1,11 @@
-import {
-  Box,
-  Typography,
-} from '@mui/material'
+import UserServicePlaceholder from './UserServicePlaceholder'
 
 export default function CirculationPage() {
   return (
-    <Box>
-      <Typography
-        variant="h4"
-        sx={{ fontWeight: 700 }}
-        gutterBottom
-      >
-        Circulación
-      </Typography>
-
-      <Typography color="text.secondary">
-        Módulo de préstamos, devoluciones y renovaciones.
-      </Typography>
-    </Box>
+    <UserServicePlaceholder
+      title="Préstamos y devoluciones"
+      description="Esta vista concentrará las operaciones de circulación visibles para el usuario."
+      icon="loan"
+    />
   )
 }

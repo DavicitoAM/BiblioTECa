@@ -1,23 +1,11 @@
-import {
-  Box,
-  Typography,
-} from '@mui/material'
+import UserServicePlaceholder from './UserServicePlaceholder'
 
 export default function SpacesPage() {
   return (
-    <Box>
-      <Typography
-        variant="h4"
-        sx={{ fontWeight: 700 }}
-        gutterBottom
-      >
-        Espacios
-      </Typography>
-
-      <Typography color="text.secondary">
-        Consulta y gestión de cubículos, salas y otros espacios
-        de la biblioteca.
-      </Typography>
-    </Box>
+    <UserServicePlaceholder
+      title="Espacios de biblioteca"
+      description="Consulta información y disponibilidad de salas, cubículos y otros espacios."
+      icon="space"
+    />
   )
 }
